@@ -38,7 +38,7 @@ const ProductGrid = () => {
   }, [selectedTab])
 
   return (
-    <div>
+    <div className='py-10'>
       <HomeTabbar selectedTab={selectedTab} onTabSelect={setSelectedTab} />
       {loading ? (
         <div className='mt-10 flex min-h-80 w-full flex-col items-center justify-center gap-4 bg-gray-100 py-10'>
