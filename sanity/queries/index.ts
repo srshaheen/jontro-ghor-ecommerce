@@ -21,3 +21,5 @@ const getCategories = async (quantity?: number) => {
     return []
   }
 }
+
+export { getCategories }
